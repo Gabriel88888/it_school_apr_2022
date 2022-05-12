@@ -11,5 +11,5 @@ def factorial(n):
 
 
 print(factorial(10))
-print(factorial(100))
+
 print(factorial(3))
