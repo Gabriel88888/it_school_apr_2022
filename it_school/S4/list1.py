@@ -8,6 +8,7 @@
 
 
 
+
 # print("Nr castigatori:", len(leader_board)-1)
 
 # print("Locul 1:", leader_board[0])
@@ -15,7 +16,7 @@
 # print("Ultimul loc:", leader_board[-1])
 
 
-# print("-" * 30)
+# print("-" * 30) 
 # leader_board[1] = "Andrei"
 
 # print("Dupa modificare")

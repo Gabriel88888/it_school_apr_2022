@@ -4,9 +4,6 @@
 def log(msg, level):
     print("[", level, "]",  msg)
 
-
-# log("start script", "INFO")
-
 def debug(msg):
     log(msg, "DEBUG")
 
@@ -22,7 +19,10 @@ def error(msg):
 def critical(msg):
     log(msg, "CRITICAL")
 
-
+# print(__name__)
+if __name__ == "__main__":
+    
+    print("From MODULE ! ! !")
 
 
 # log("Debug message", "DEBUG" )
